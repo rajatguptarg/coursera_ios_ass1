@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lblText;
+- (IBAction)btnClick:(id)sender;
 
 @end
 

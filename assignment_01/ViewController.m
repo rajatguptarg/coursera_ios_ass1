@@ -25,4 +25,7 @@
 }
 
 
+- (IBAction)btnClick:(id)sender {
+    self.lblText.text = @"It worked!";
+}
 @end
